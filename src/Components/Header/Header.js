@@ -24,6 +24,7 @@ function Header() {
         <HeaderOption Icon={SupervisorAccountIcon} title='My Network' />
         <HeaderOption Icon={BusinessCenterIcon} title='Jobs' />
         <HeaderOption Icon={NotificationsIcon} title='Notifications' />
+        <HeaderOption avatar='https://user-images.githubusercontent.com/77457834/151813836-0308663c-7775-406a-a58b-442c63c29144.png' title='me' />
       </div>
 
     </div>
