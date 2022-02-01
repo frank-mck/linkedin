@@ -1,4 +1,4 @@
-import { getByTestId, render, screen } from "@testing-library/react"
+import { render, screen } from "@testing-library/react"
 import Header from "./Header";
 
 describe('<Header />', () => {
@@ -15,7 +15,7 @@ describe('<Header />', () => {
     expect(headerInput).toBeInTheDocument();
   });
 
-  test('renders the headers icons', () => {
+  test('renders the header icons', () => {
     render(<Header />);
     const SearchIcon = screen.getByTestId('SearchIcon');
     const HomeIcon = screen.getByTestId('HomeIcon');
