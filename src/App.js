@@ -11,7 +11,7 @@ function App() {
 
       <div className='app__body'>
         <Sidebar />
-        {/* Feed */}        
+        <Feed />        
         {/* Widgets */}
       </div>
     </div>
