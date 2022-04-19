@@ -3,9 +3,15 @@ import './Feed.css'
 
 function FeedInputOption({ Icon, title, color }) {
   return (
-    <div className='feed__inputOption'>
+    <div data-testid='inputOption' className='feed__inputOption'>
       <Icon style={{color: color}} />
-      <h4 className='feed__inputOption__title'>{title}</h4>
+      
+      <h4 
+        data-testid='inputOption-title' 
+        className='feed__inputOption__title'
+      >
+        {title}
+      </h4>
     </div>
   )
 }
