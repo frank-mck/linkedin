@@ -11,5 +11,11 @@ describe("<Feed />", () => {
     expect(inputOption).toBeInTheDocument();
     expect(inputOptionTitle).toBeInTheDocument();
     expect(inputOptionIcon).toBeInTheDocument();
+  });
+
+  test("renders 4 input options", () => {
+    render(<Feed />);
+    const inputOption = screen.queryAllByTestId("inputOption");
+    expect(inputOption.length).toEqual(4);
   })
 })
