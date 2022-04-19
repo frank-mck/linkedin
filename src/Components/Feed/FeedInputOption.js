@@ -4,7 +4,7 @@ import './Feed.css'
 function FeedInputOption({ Icon, title, color }) {
   return (
     <div data-testid='inputOption' className='feed__inputOption'>
-      <Icon style={{color: color}} />
+      <Icon data-testid='inputOptionIcon' style={{color: color}} />
       
       <h4 
         data-testid='inputOption-title' 
